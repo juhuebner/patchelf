@@ -21,7 +21,6 @@ no_rpath_arch_TESTS = \
 src_TESTS = \
   plain-fail.sh plain-run.sh shrink-rpath.sh set-interpreter-short.sh \
   set-interpreter-long.sh set-rpath.sh add-rpath.sh \
-  # no-rpath.sh 
   big-dynstr.sh \
   set-rpath-library.sh soname.sh shrink-rpath-with-allowed-prefixes.sh \
   set-rpath-rel-map.sh \
@@ -39,9 +38,7 @@ src_TESTS = \
   no-dynamic-section.sh \
   args-from-file.sh \
   basic-flags.sh \
-  # set-empty-rpath.sh \#
   phdr-corruption.sh \
-  # replace-needed.sh \#
   replace-add-needed.sh \
   add-debug-tag.sh
 
